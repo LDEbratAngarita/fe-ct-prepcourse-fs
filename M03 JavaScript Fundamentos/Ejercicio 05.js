@@ -9,9 +9,9 @@ function esPositivo(num) {
    // Si el número es 0, devuelve False.
    // Tu código:
    if(num >0){
-      return "El numero es positivo";
+      return "Es positivo";
    }else if(num<0){
-      return "El numero es negativo";
+      return "Es negativo";
    }else{
       return false;
    }
@@ -70,7 +70,7 @@ function esVocal(letra) {
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
    if(letra == "a" | letra =="e" | letra =="i" | letra =="o" | letra =="u"){
-      console.log("Es vocal")
+      return "Es vocal"
    }else{
       return "Dato incorrecto"
    }
